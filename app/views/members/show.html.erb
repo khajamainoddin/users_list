@@ -1,0 +1,16 @@
+
+<div class="border-form-div">
+
+<p>
+  <strong>Name:</strong>
+  <%= @member.name %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @member.details %>
+</p>
+
+<%= link_to 'Edit', edit_member_path(@member), class: 'btn btn-info' %> |
+<%= link_to 'Back', members_path, class: 'btn btn-success' %>
+</div>
